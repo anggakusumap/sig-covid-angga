@@ -3,7 +3,7 @@
 @section('title','Pendataan Covid-19')
 @section('content')
 <div class="row">
-  <div class="col-12 mt-2">
+  <div class="col-12 mt-3">
     <h3>Tanggal {{$tanggalSekarang}}</h3>
   </div>
 </div>
@@ -12,7 +12,7 @@
 
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    <div class="small-box bg-blue">
+    <div class="small-box bg-gradient-red">
       <div class="inner">
         <h3>{{$totalPositif[0]->positif}} <sup style="font-size: 22px" class="">Orang</sup></h3>
 
@@ -26,7 +26,7 @@
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    <div class="small-box bg-yellow">
+    <div class="small-box bg-gradient-yellow">
       <div class="inner">
         <h3>{{$totalDirawat[0]->dirawat}} <sup style="font-size: 22px">Orang</sup></h3>
 
@@ -40,7 +40,7 @@
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    <div class="small-box bg-green">
+    <div class="small-box bg-gradient-green">
       <div class="inner">
         <h3>{{$totalSembuh[0]->sembuh}} <sup style="font-size: 22px">Orang</sup></h3>
 
@@ -54,7 +54,7 @@
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    <div class="small-box bg-red">
+    <div class="small-box bg-gradient-dark">
       <div class="inner">
         <h3>{{$totalMeninggal[0]->meninggal}} <sup style="font-size: 22px">Orang</sup></h3>
 
