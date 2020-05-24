@@ -7,9 +7,9 @@
         <form action="/data-kabupaten" method="POST">
         @csrf
         @if ($kabupatenBelumUpdate->count() > 0)
-        <div class="card card-cyan">
+        <div class="card card-navy">
         @else
-        <div class="card card-cyan mt-5">
+        <div class="card card-navy mt-5">
         @endif
             
                 <div class="card-header">
@@ -17,8 +17,8 @@
                 </div>
                 <div class="card-body">
                     @if ($kabupatenBelumUpdate->count() > 0)
-                    <div class="callout callout-primary teal">
-                    <h4><i class="icon fa fa-calendar teal"></i> Data Kabupaten Yang Belum Diupdate per <strong>{{$tanggalSekarang}}</strong></h4>
+                    <div class="callout callout-primary red">
+                    <h4><i class="icon fa fa-calendar red"></i> Data Kabupaten Yang Belum Diupdate per <strong>{{$tanggalSekarang}}</strong></h4>
                         <p>
                         @foreach ($kabupatenBelumUpdate as $item)
                         {{$item->kabupaten}} ,
