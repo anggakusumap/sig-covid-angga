@@ -26,26 +26,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <body class="hold-transition sidebar-mini">
     <div class="wrapper" id="app">
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
-                </li>
-            </ul>
-
-            <!-- SEARCH FORM -->
-            
-
-        </nav>
-        <!-- /.navbar -->
-
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <aside class="main-sidebar sidebar-dark-primary bg-gradient-navy elevation-4">
             <!-- Brand Logo -->
             <a href="#" class="brand-link">
                 <img src="./img/logo-bali.png" alt="Bali" class="brand-image mr-0 ml-1">
-                <span class="brand-text font-weight-light"><strong>Pendataan Covid-19</strong></span>
+                <span class="brand-text font-weight-light"><strong style="color: white">Pendataan Covid-19</strong></span>
             </a>
 
             <!-- Sidebar -->
@@ -57,8 +43,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">
-                            <h4 class="pt-1">Angga Kusuma</h4> {{-- {{Auth::user()->name}} --}}
-                            <h5>1705551051</h5>
+                            <h4 class="pt-1" style="color: white">Angga Kusuma</h4> {{-- {{Auth::user()->name}} --}}
+                            <h5 style="color: white">1705551051</h5>
                         </a>
                     </div>
                 </div>
@@ -72,11 +58,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <li class="nav-item" class="nav-link">
                             <a href="/" class="nav-link">
                                 <i class="nav-icon fas fa-bank cyan"></i>
-                                <p>Beranda</p>
+                                <p style="color: white">Beranda</p>
                             </a>
                             {{-- <router-link to="/dashboard" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt blue"></i>
-                                <p>
+                                <p style="color: white">
                                     Beranda
                                 </p>
                             </router-link> --}}
@@ -85,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <li class="nav-item">
                             <a href="/data-kabupaten" class="nav-link">
                                 <i class="fas fa-bar-chart nav-icon green"></i>
-                                <p>Tambah Data</p>
+                                <p style="color: white">Tambah Data</p>
                             </a>
                             {{-- <router-link to="/users" class="nav-link ">
                                 <i class="fas fa-users nav-icon cyan"></i>
@@ -96,7 +82,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <li class="nav-item">
                             <a href="/about-me" class="nav-link">
                                 <i class="nav-icon fas fa-user"></i>
-                                <p>
+                                <p style="color: white">
                                     Tentang Saya
                                 </p>
                             </a>
@@ -132,7 +118,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
             <!-- Main content -->
             <div class="content">
-                <div class="container-fluid">
+                <div class="container-fluid bg-white">
                     @yield('content')
                     {{-- <router-view></router-view> --}}
                     <!-- /.row -->
