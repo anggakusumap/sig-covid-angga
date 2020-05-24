@@ -4,7 +4,7 @@
 @section('content')
 <div class="row">
   <div class="col-12 mt-3">
-    <h3>Tanggal {{$tanggalSekarang}}</h3>
+    <h4>Pendataan Covid-19 Sampai Tanggal {{$tanggalSekarang}}</h4>
   </div>
 </div>
 <!-- Small boxes (Stat box) -->
@@ -89,7 +89,7 @@
 <div class="row mt-2">
   <div class="col-12">
 
-    <div class="card card-cyan">
+    <div class="card card-navy">
       <div class="card-header">
         <h3 class="card-title">Peta Sebaran Kasus Covid-19 Provinsi Bali sampai tanggal <strong>{{$tanggalSekarang}}</strong></h3>
       </div>
@@ -132,7 +132,7 @@
 <div class="row mt-2">
   <div class="col-12">
 
-    <div class="card card-cyan">
+    <div class="card card-navy">
       <div class="card-header">
         <h3 class="card-title">Covid-19 Provinsi Bali <strong>{{$tanggalSekarang}}</strong></h3>
       </div>
